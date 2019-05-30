@@ -54,13 +54,126 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 10px;
+	line-height: 0.7;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+a {
+	padding-left: 30px;
+	padding-right: 30px;
+	color: lightgray;
+	text: bold;
+	text-decoration: none;
+}
+
+.container{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+.navigation-and-logo{
+	display: flex;
+	/*flex-direction: column;*/
+	/*padding-bottom: 50px;
+*/	justify-content: space-between;
+}
+
+.logo{
+	width:200px;
+	height:50px;
+/*	margin-left: 50px;*/
+}
+
+header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid darkgray;
+}
+
+.list-of-services{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid darkgray;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.some-facts-about-services{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-flow: row;	
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+.list-of-things {
+	padding-top: 20px;
+}
+
+.facts-text{
+	padding-right: 20px;
+}
+
+ul {
+	list-style-type: disc;
+	padding-left: 10px;
+	line-height: 2;
+}
+
+.get_started {
+	display:inline-block;
+	border: 2px solid darkgray;
+	border-radius: 0;
+	width: 100px;
+	background: white;
+	padding: 5px;
+	font-size: 15x
+}
+
+.learn-more {
+	display:inline-block;
+	border: 2px solid darkgray;
+	border-radius: 0;
+	width: 100px;
+	background: white;
+	padding: 5px;
+	font-size: 15x;
+	margin-top: 10px;
+}
+
+.services-box{
+	padding: 20px;
+	height: 200px;
+	width: 350px;
+	border: 1px solid black;
+	background: #F0F0F0;
+	margin-bottom: 20px;
+
+}
+
+footer {
+	text-align: center;
+	color: #585858;
+	margin-top: 30px;
+	margin-bottom: 120px;
+}
+
+
+
